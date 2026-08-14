@@ -1,0 +1,24 @@
+a = int(input("Digite um número: ", ))
+b = int(input("Digite outro número: ", ))
+
+while True:
+    if b == 0:
+        print('Pode não man')
+        break
+    else:
+        soma = a + b
+        subtacao = a - b
+        multiplicacao = a * b
+        divisao = a/b
+        divisao_inteira = a//b
+        resto = a % b
+        potencia = a ** b
+
+        print(f'Soma: {a} + {b} = {soma}')
+        print(f'Subtação: {a} - {b} = {subtacao}')
+        print(f'Multiplicação: {a} * {b} = {multiplicacao}')
+        print(f'Divisão: {a} / {b} = {divisao}')
+        print(f'Divisão Inteira: {a} // {b} = {divisao_inteira}')
+        print(f'Resto: {a} % {b} = {resto}')
+        print(f'Potênciação: {a} ** {b} = {potencia}')
+        break
