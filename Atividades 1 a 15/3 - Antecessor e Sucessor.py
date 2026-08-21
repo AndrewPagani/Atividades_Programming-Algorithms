@@ -1,3 +1,3 @@
 n = int(input("Digite um número: "))
 
-print(f" Antecessor: {ant}\n Número: {n}\n Sucessor: {suc}")
+print(f" Antecessor: {n - 1}\n Número: {n}\n Sucessor: {n + 1}")
