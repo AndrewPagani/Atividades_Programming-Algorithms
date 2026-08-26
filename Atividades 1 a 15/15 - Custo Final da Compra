@@ -1,0 +1,5 @@
+pu = float(input("Digite o preço unitário: R$"))
+qtd = float(input("Digite a quantidade: "))
+ft = float(input("Digite o valor do frete: R$"))
+
+print(f" Subtotal: {pu * qtd:.2f}\n Total: {(pu * qtd) + ft:.2f}")
