@@ -1,3 +1,14 @@
-n1, n2, n3 = map(int, input("Digite três valores: ").split(","))
+valores = list(map(int, input("Digite três valores: ").split(",")))
+num = len(valores)
 
-print("Ordem crescente:",*sorted([n1,n2,n3]))
+for i in range(num):
+    trocar = False
+    
+    for j in range(0, num - 1):
+        if valores[j] > valores[j + 1]:
+            valores[j], valores[j + 1] = valores[j + 1], valores[j]
+            trocar = True
+            
+    if not trocar:
+        break
+print("Ordem crescente:", *valores)
