@@ -1,3 +1,12 @@
-n1, n2, n3 = map(int, input("Digite três valores: ").split(","))
+val = list(map(int, input("Digite 3 números: ").split(",")))
 
-print(f" Maior: {max(n1, n2, n3)}\n Menor: {min(n1, n2, n3)}")
+if val[0] > val[1]:
+    val[0],val[1] = val[1], val[0]
+  
+if val[1] > val[2]:
+    val[1], val[2] = val[2], val[1]
+  
+if val[0] > val[1]:
+    val[0],val[1] = val[1], val[0]
+    
+print(f" Maior: {val[2]}\n Menor: {val[0]}")
