@@ -1,0 +1,12 @@
+preco = float(input("Valor da compra: R$"))
+opc = int(input("\n Dinheiro/PIX - 1\n Débito - 2\n Crédito à vista - 3\n Crédito Parcelado - 4\n Digite um método de pagamento: "))
+
+match opc:
+    case 1:
+        print(f" Valor Final: R${preco*0.9}")
+    case 2:
+        print(f" Valor Final: R${preco*0.95}")
+    case 3:
+        print(f" Valor Final: R${preco}")
+    case 4:
+        print(f" Valor Final: R${preco*1.08}")
