@@ -3,10 +3,10 @@ def valida_string(word, val_min, val_max):
         return(True)
     else:
         return(False)
-
-word = input("Digite uma palavra: ")
+        
 val_min = input("Digite o mínimo de caracteres: ")
 val_max = input("Digite o máximo de caracteres: ")
+word = input("Digite uma palavra: ")
 
 if val_min == "":
     val_min = 1
