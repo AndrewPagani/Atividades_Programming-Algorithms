@@ -1,0 +1,4 @@
+sf = float(input("Digite seu salário fixo: R$"))
+tv = float(input("Digite o total vendido: R$"))
+
+print(f" Comissão: R${tv*0.04:.2f}\n Salário Total: R${sf + tv*0.04:.2f}")
