@@ -15,5 +15,5 @@ match num:
         print("Sexta-Feira")
     case 7:
         print("Sábado")
-    case default:
+    case _:
         print("Opção inválida")
