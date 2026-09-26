@@ -12,3 +12,5 @@ for i in range(num):
     if not trocar:
         break
 print("Ordem crescente:", *valores)
+
+w = input("")

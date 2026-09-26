@@ -10,3 +10,5 @@ match opc:
         print(f" Valor Final: R${preco}")
     case 4:
         print(f" Valor Final: R${preco*1.08}")
+
+w = input("")
