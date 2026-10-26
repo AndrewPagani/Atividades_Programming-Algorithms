@@ -1,8 +1,8 @@
 def valida_string(word, val_min, val_max):
     if len(word) >= val_min and len(word) <= val_max:
-        return(True)
+        return True
     else:
-        return(False)
+        return False
         
 val_min = input("Digite o mínimo de caracteres: ")
 val_max = input("Digite o máximo de caracteres: ")
